@@ -37,7 +37,7 @@ export default function Home() {
 
       <a href="#rezerwuj" className="hero-btn back-top-btn active">
         <Image
-          src="./reservation-icon.png"
+          src="/reservation-icon.png"
           width="48"
           height="48"
           alt="booking icon"
