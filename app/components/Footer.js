@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-brand ">
             <a href="#" className="logo">
               <Image
-                src="./mushroom-logo.jpg"
+                src="/mushroom-logo.jpg"
                 width="160"
                 height="50"
                 loading="lazy"

@@ -8,7 +8,7 @@ const Hero = () => {
         <li className="slider-item active" data-hero-slider-item>
           <div className="slider-bg">
             <Image
-              src="./back.jpg"
+              src="/back.jpg"
               width="1880"
               height="950"
               alt=""

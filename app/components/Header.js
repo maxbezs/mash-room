@@ -16,7 +16,7 @@ const Header = () => {
       <div className="container">
         <a href="#" className="logo">
           <Image
-            src="./mushroom-logo.jpg"
+            src="/mushroom-logo.jpg"
             width="100"
             height="100"
             alt="Mush - Home"
@@ -35,7 +35,7 @@ const Header = () => {
 
           <a href="#" className="logo">
             <Image
-              src="./mushroom-logo.jpg"
+              src="/mushroom-logo.jpg"
               width="100"
               height="100"
               alt="Mush Room - Home"

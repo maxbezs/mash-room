@@ -6,7 +6,7 @@ const Event = (props) => {
       <div className="event-card has-before hover:shine">
         <div className="card-banner img-holder" style={{ height: "350px" }}>
           <Image
-            src={`./${props.img}`}
+            src={`/${props.img}`}
             loading="lazy"
             alt={`${props.title} ${props.subtitle} ${props.day}/${props.month}/${props.year}`}
             className="img-cover"
