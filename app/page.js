@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Menus from "./components/Menus";
 import Reservation from "./components/Reservation";
+import Image from "next/image";
 
 export default function Home() {
   return (

@@ -1,11 +1,11 @@
+import Image from "next/image";
 import React from "react";
-
 const Event = (props) => {
   return (
     <li>
       <div className="event-card has-before hover:shine">
         <div className="card-banner img-holder" style={{ height: "350px" }}>
-          <img
+          <Image
             src={`./${props.img}`}
             loading="lazy"
             alt={`${props.title} ${props.subtitle} ${props.day}/${props.month}/${props.year}`}
