@@ -15,12 +15,7 @@ const Header = () => {
     <header className="header" data-header>
       <div className="container">
         <a href="#" className="logo">
-          <Image
-            src="./mushroom-logo.jpg"
-            width="100"
-            height="100"
-            alt="Grilli - Home"
-          />
+          <Image src="./mushroom-logo.jpg" alt="Mush Room - Home" />
         </a>
 
         <nav className={showNavbar ? "navbar active" : " navbar"} data-navbar>
@@ -34,12 +29,7 @@ const Header = () => {
           </button>
 
           <a href="#" className="logo">
-            <Image
-              src="./mushroom-logo.jpg"
-              width="100"
-              height="100"
-              alt="Mush Room - Home"
-            />
+            <Image src="./mushroom-logo.jpg" alt="Mush Room - Home" />
           </a>
 
           <ul className="navbar-list">
