@@ -6,7 +6,7 @@ const Menu = (props) => {
       <div className="service-card">
         <a href={props.file} className="has-before hover:shine">
           <figure className="card-banner img-holder">
-            <img
+            <Image
               src={`./${props.file}`}
               width="285"
               height="336"

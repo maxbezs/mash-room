@@ -6,7 +6,7 @@ const Hero = () => {
       <ul className="hero-slider" data-hero-slider>
         <li className="slider-item active" data-hero-slider-item>
           <div className="slider-bg">
-            <img
+            <Image
               src="./back.jpg"
               width="1880"
               height="950"

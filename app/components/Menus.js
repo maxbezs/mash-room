@@ -30,7 +30,7 @@ const Menus = () => {
 
         <ul className="grid-list">
           {menus.map((menu, index) => (
-            <Menu id={index} file={menu.file} name={menu.name} />
+            <Menu key={index} file={menu.file} name={menu.name} />
           ))}
         </ul>
       </div>

@@ -35,7 +35,7 @@ export default function Home() {
       <Footer />
 
       <a href="#rezerwuj" className="hero-btn back-top-btn active">
-        <img
+        <Image
           src="./reservation-icon.png"
           width="48"
           height="48"

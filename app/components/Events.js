@@ -38,7 +38,7 @@ const Events = () => {
         <ul className="grid-list">
           {events.map((event, index) => (
             <Event
-              id={index}
+              key={index}
               img={event.img}
               title={event.title}
               subtitle={event.subtitle}

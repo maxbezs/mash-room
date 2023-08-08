@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="footer-top grid-list">
           <div className="footer-brand ">
             <a href="#" className="logo">
-              <img
+              <Image
                 src="./mushroom-logo.jpg"
                 width="160"
                 height="50"

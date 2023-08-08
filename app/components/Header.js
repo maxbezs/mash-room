@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header" data-header>
       <div className="container">
         <a href="#" className="logo">
-          <img
+          <Image
             src="./mushroom-logo.jpg"
             width="100"
             height="100"
@@ -33,7 +33,7 @@ const Header = () => {
           </button>
 
           <a href="#" className="logo">
-            <img
+            <Image
               src="./mushroom-logo.jpg"
               width="100"
               height="100"
